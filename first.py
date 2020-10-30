@@ -32,3 +32,13 @@
 # nombre = "miguel"
 # my_str = f'Hola como estas {nombre}\n' * 10
 # print(my_str)
+# nombre = input("Ingresa tu nombre: ")
+# saludo = f'Hey que pex {nombre}'
+# print(saludo)
+# print(len(saludo))
+
+# Iterators o Iteradores
+# iterador = iter(["miguel", "pedro", "maria"])
+# print(next(iterador))
+# print(next(iterador))
+# print(next(iterador))

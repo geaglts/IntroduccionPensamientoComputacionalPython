@@ -26,3 +26,9 @@
 # print("hola"[1])
 # Separacion de una parte
 # print("hola mundo"[0:4])
+# print("hola mundo"[:-2])
+# print("hola mundo"[::2])
+
+# nombre = "miguel"
+# my_str = f'Hola como estas {nombre}\n' * 10
+# print(my_str)

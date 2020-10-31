@@ -1,13 +1,15 @@
 # Raiz cuadrada
+# objetivo = int(input("Escoge un numero: "))
 
-objetivo = int(input("Escoge un numero: "))
-respuesta = 0
 
-while respuesta**2 < objetivo:
-    print(respuesta**2)
-    respuesta += 1
+def enumeracionExhaustiva(objetivo):
+    respuesta = 0
 
-if respuesta**2 == objetivo:
-    print(f'La raiz cuadrada de {objetivo} es {respuesta}')
-else:
-    print(f'{objetivo} no tiene una raiz cuadrada exacta')
+    while respuesta**2 < objetivo:
+        # print(respuesta**2)
+        respuesta += 1
+
+    if respuesta**2 == objetivo:
+        return f'La raiz cuadrada de {objetivo} es {respuesta}'
+    else:
+        return f'{objetivo} no tiene una raiz cuadrada exacta'

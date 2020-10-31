@@ -23,6 +23,9 @@ log(f'x={x}, y={y}, z={z}')
 
 # Desempaquetar tuplas
 def coordenadas():
+    """Retorna una tupla con 2 valores
+    returns tupla
+    """
     return (3, 4)
 
 
